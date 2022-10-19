@@ -1,0 +1,7 @@
+CREATE TABLE `kamar` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `no_kamar` int(11) NOT NULL,
+  `status` varchar(255) NOT NULL,
+  `jumlah_bed` varchar(100) NOT NULL,
+  `tarif_kamar` varchar(20) NOT NULL
+);
